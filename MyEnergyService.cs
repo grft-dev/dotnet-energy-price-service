@@ -1,6 +1,6 @@
-﻿namespace EnergyPriceService;
+﻿namespace MyEnergyService;
 
-public class EnergyPriceService
+public class EnergyPriceCalculator
 {
     public static double GetPrice()
     {
