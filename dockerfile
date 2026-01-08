@@ -9,4 +9,4 @@ COPY /bin/Release/net8.0/publish/ /usr/app/
 EXPOSE 80
 EXPOSE 81
 # And run Graftcode Gateway passing name of modules that should be exposed
-CMD ["gg", "--runtime", "netcore", "--modules", "/usr/app/EnergyPriceService.dll", "--endpoint", "https://d.grft.dev"]
+CMD ["gg", "--runtime", "netcore", "--modules", "/usr/app/MyEnergyService.dll", "--endpoint", "https://d.grft.dev"]
